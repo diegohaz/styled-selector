@@ -6,6 +6,12 @@
 
 Get static CSS(-in-JS) selectors (like `.sc-htpNat`) from React components
 
+> **Note**: 
+>
+> This library relies on implementation details of libraries mentioned in [Usage](#usage) so as to get component selectors. Styled Components, for example, has a `.styledComponentId` property, whereas Emotion uses the `.toString()` method. 
+>
+> This means that they can break it in patch versions. If this happens, we'll release a fix here as soon as possible. For more information, see our [code](https://github.com/diegohaz/styled-selector/blob/master/src/index.ts).
+
 ## Install
 
     $ npm i styled-selector
