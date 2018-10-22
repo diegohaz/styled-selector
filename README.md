@@ -37,7 +37,7 @@ s(className); // .css-htpNat
 ```
 
 ### [Reuse](https://github.com/diegohaz/reuse)
-```jsx
+```js
 import styled from "styled-components";
 import use from "reuse";
 import s from "styled-selector";
@@ -48,7 +48,7 @@ s(Comp); // .sc-htpNat
 ```
 
 ### Custom
-```js
+```jsx
 import React from "react";
 import s from "styled-selector";
 
