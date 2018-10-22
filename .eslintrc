@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": true,
+      "eslint-import-resolver-typescript": true
+    }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "typescript-eslint-parser",
+      "plugins": [
+        "typescript"
+      ],
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "no-restricted-globals": "off"
+      }
+    }
+  ]
+}
