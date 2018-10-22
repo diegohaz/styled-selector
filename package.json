@@ -1,6 +1,6 @@
 {
   "name": "styled-selector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Get static CSS(-in-JS) selectors from React components",
   "license": "MIT",
   "repository": "diegohaz/styled-selector",
