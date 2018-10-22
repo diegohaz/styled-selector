@@ -22,7 +22,7 @@ const Comp = styled.div``;
 s(Comp); // .sc-htpNat
 ```
 
-### [Emotion]((https://github.com/emotion-js/emotion))
+### [Emotion](https://github.com/emotion-js/emotion)
 ```js
 import styled, { css } from "react-emotion";
 import s from "styled-selector";
@@ -37,7 +37,7 @@ s(className); // .css-htpNat
 ```
 
 ### [Reuse](https://github.com/diegohaz/reuse)
-```js
+```jsx
 import styled from "styled-components";
 import use from "reuse";
 import s from "styled-selector";
